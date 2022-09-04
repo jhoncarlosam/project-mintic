@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+:root {
+  --primary-color: #14213D;
+  --secondary-color: #FCA311;
+  --grey-soft: #E5E5E5; 
+  --black: #000000;
+  --white: #FFFFFF;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* html {
+  scroll-behavior: auto;
+} */
+
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: var(--grey-soft);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.text-tienda {
+  color: var(--secondary-color) !important;
+}
+.btn-tienda {
+  background-color: var(--secondary-color);
+  color: var(--white);
+}
+
+.btn-tienda:hover {
+  background-color: var(--grey-soft);
+  color: #000;
+}
+
+.logo {
+  border-radius: 10%;
+  height: 30px;
+}
+nav {
+  background-color: var(--primary-color);
+}
+#header img {
+  width: 80px;
+}
+
+#main .carousel-inner img {
+  max-height: 70vh;
+  object-fit: cover;
+  filter: grayscale(70%);
+}
+
+.row-other-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3px;
+}
+
+.other-img-home {
+  margin-top: 3px;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.logo {
+  max-width: 100%;
+  height: auto;
+  margin-right: 10px;
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+#about-us {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+#about-us img {
+  max-width: 100%;
+}
+
+#footer {
+  background-color: var(--primary-color);
+}
+
+#footer a {
+  color: white;
+}
+
+@media screen and (min-width: 480px) {
+  .row-other-images.other-img-home {
+    display: flex !important;
+    flex-direction: column !important;
   }
 }
