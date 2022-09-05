@@ -1,19 +1,19 @@
 import React from "react";
 
-export default function Team() {
+export default function Join() {
   return (
     <>
       {/* <!-- Join the team --> */}
-      <section id="join-the-team" class="pt-3 pb-3">
-        <div class="container">
-          <div class="row">
-            <div class="col text-uppercase text-center">
+      <section id="join-the-team" className="pt-3 pb-3">
+        <div className="container">
+          <div className="row">
+            <div className="col text-uppercase text-center">
               <small>Únete al</small>
               <h2>Equipo</h2>
             </div>
           </div>
-          <div class="row">
-            <div class="col text-center">
+          <div className="row">
+            <div className="col text-center">
               Inscribete como{" "}
               <abbr data-toggle="tooltip" title="Beneficiario de misiontic2022">
                 tripulante
@@ -21,40 +21,40 @@ export default function Team() {
               . Conviértete en un programador Full-Stack!
             </div>
           </div>
-          <div class="row">
-            <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+          <div className="row">
+            <div className="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
               <form>
-                <div class="form-row">
-                  <div class="form-group col-12 col-md-6">
+                <div className="form-row">
+                  <div className="form-group col-12 col-md-6">
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       placeholder="Nombre"
                     />
                   </div>
-                  <div class="form-group col-12 col-md-6">
+                  <div className="form-group col-12 col-md-6">
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       placeholder="Apellido"
                     />
                   </div>
                 </div>
-                <div class="form-row">
-                  <div class="form-group col">
+                <div className="form-row">
+                  <div className="form-group col">
                     <textarea
                       name="text"
-                      class="form-control form-control-lg"
+                      className="form-control form-control-lg"
                       placeholder="Un resumen sobre tus habilidades"
                     ></textarea>
-                    <small class="form-text text-muted">
+                    <small className="form-text text-muted">
                       Recuerda incluir las skills que dominas.
                     </small>
                   </div>
                 </div>
-                <div class="form-row">
-                  <div class="col">
-                    <button type="button" class="btn btn-tienda btn-block">
+                <div className="form-row">
+                  <div className="col">
+                    <button type="button" className="btn btn-tienda btn-block">
                       Enviar
                     </button>
                   </div>

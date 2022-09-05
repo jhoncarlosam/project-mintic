@@ -4,82 +4,84 @@ export default function Modal() {
   return (
     <>
       {/* <!-- Modal --> */}
+      {/* change tabindex to tabIndex */}
       <div
-        class="modal fade"
+        className="modal fade"
         id="modalCompra"
-        tabindex="-1"
+        tabIndex="-1"
         role="dialog"
         aria-labelledby="exampleModalCenterTitle"
         aria-hidden="true"
       >
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalCenterTitle">
+        <div className="modal-dialog modal-dialog-centered" role="document">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h5 className="modal-title" id="exampleModalCenterTitle">
                 Inicio de sesión
               </h5>
               <button
                 type="button"
-                class="close"
+                className="close"
                 data-dismiss="modal"
                 aria-label="Close"
               >
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <div class="modal-body">
+            <div className="modal-body">
               {/* <!-- añadir link al atributo objetivo --> */}
               <form action="">
-                <div class="form-row">
-                  <div class="form-group col">
-                    <div class="input-group mb-3">
-                      <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon1">
+                <div className="form-row">
+                  <div className="form-group col">
+                    <div className="input-group mb-3">
+                      <div className="input-group-prepend">
+                        <span className="input-group-text" id="basic-addon1">
                           Correo
                         </span>
                       </div>
                       <input
                         type="email"
-                        class="form-control"
+                        className="form-control"
                         placeholder="username@gmail.com"
                         aria-label="Username"
                         aria-describedby="basic-addon1"
                         required
                       />
                     </div>
-                    <div class="input-group mb-3">
-                      <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon1">
+                    <div className="input-group mb-3">
+                      <div className="input-group-prepend">
+                        <span className="input-group-text" id="basic-addon1">
                           Contraseña
                         </span>
                       </div>
                       <input
                         type="password"
-                        class="form-control"
+                        className="form-control"
                         placeholder="******"
                         aria-label="Username"
                         aria-describedby="basic-addon1"
+                        autoComplete="off"
                         required
                       />
                     </div>
                   </div>
                 </div>
               </form>
-              <div class="alert alert-warning" role="alert">
-                <a href="#" target="_blank" rel="noopener noreferrer">
+              <div className="alert alert-warning" role="alert">
+                <a href="/#" target="_blank" rel="noopener noreferrer">
                   ¿Olvidaste tu contraseña?
                 </a>
               </div>
             </div>
-            <div class="modal-footer">
+            <div className="modal-footer">
               <button
                 type="button"
-                class="btn btn-secondary"
+                className="btn btn-secondary"
                 data-dismiss="modal"
               >
                 Cancelar
               </button>
-              <button type="button" class="btn btn-tienda">
+              <button type="button" className="btn btn-tienda">
                 Iniciar sesión
               </button>
             </div>
