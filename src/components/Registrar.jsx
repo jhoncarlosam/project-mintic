@@ -1,10 +1,6 @@
 import React from "react";
-// import Registrar from "../components/Registrar"
-// import About from "./About";
-// import Header from "./Header";
-// import { Routes, Route, Link } from "react-router-dom"
 
-export default function Modal() {
+export default function Registrar() {
   return (
     <>
       {/* <!-- Modal --> */}
@@ -21,7 +17,7 @@ export default function Modal() {
           <div className="modal-content">
             <div className="modal-header">
               <h5 className="modal-title" id="exampleModalCenterTitle">
-                Inicio de sesión
+                Registrarse
               </h5>
               <button
                 type="button"
@@ -76,14 +72,11 @@ export default function Modal() {
                   ¿Olvidaste tu contraseña?
                 </a>
               </div> */}
-              <div className="alert alert-warning" role="alert">
-                {/* <a href="/#" target="_blank" rel="noopener noreferrer">
-                  <Routes>
-                    <Route path="/" element={<Header />} />
-                    <Route path="about" element={<About />} />
-                  </Routes> 
-                </a> */}
-              </div>
+              {/* <div className="alert alert-warning" role="alert">
+                <a href="/#" target="_blank" rel="noopener noreferrer">
+                  Registrarse
+                </a>
+              </div> */}
             </div>
             
             <div className="modal-footer">
