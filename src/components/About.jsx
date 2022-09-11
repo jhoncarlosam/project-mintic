@@ -10,19 +10,16 @@ export default function About() {
             <div className="col-12 col-lg-6 pl-0 pr-0">
               <img
                 className="img-fluid"
-                src="https://images.unsplash.com/photo-1605513524006-063ed6ed31e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=752&q=80"
+                src="https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt="clothes"
               />
             </div>
             <div className="col-12 col-lg-6 pt-4 pb-4">
               <h2>Sobre nosotros</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
-                ipsa saepe. Voluptate perferendis tempora recusandae aliquam
-                quae rerum commodi sunt in voluptates quam atque ipsam adipisci
-                delectus harum magni nihil blanditiis, id, non soluta porro quo!
-                Quam libero perferendis totam.
-              </p>
+                tienda en linea de ropa, ropa fresca y sencilla para su compra, el team de teamone trabaja en esta tienda online, manteniendo y 
+                ajustando su codigo fuente
+                </p>
               <a
                 className="btn btn-outline-light"
                 href="https://www.misiontic2022.gov.co/portal/"

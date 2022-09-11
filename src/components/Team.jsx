@@ -22,14 +22,13 @@ export default function Team() {
                 />
                 <div className="card-body">
                   <div className="badges">
-                    <span className="badge badge-warning">JavaScript</span>
-                    <span className="badge badge-primary">React</span>
+                    <span className="badge badge-warning p-1 mx-2">JavaScript</span>
+                    <span className="badge badge-primary  p-1 mx-2 ">React</span>
+                    <span className="badge badge-primary  p-1 mx-2 ">Node.js</span>
                   </div>
                   <h5 className="card-title">Jhon Acevedo</h5>
                   <p className="card-text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Quia non molestias sed id praesentium. Dolore aliquid hic
-                    quia dolorem nulla.
+                    Desarrollador Front-End, encargado del desarrollo
                   </p>
                 </div>
               </div>
@@ -38,19 +37,18 @@ export default function Team() {
               <div className="card">
                 <img
                   className="card-img-top"
-                  src="https://images.unsplash.com/photo-1577744168855-0391d2ed2b3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+                  src="https://drive.google.com/uc?id=1nJcujGxoe7qpnjtY7TX7aIL7DsOpFxb4"
                   alt="Foto de Miguel"
                 />
                 <div className="card-body">
                   <div className="badges">
-                    <span className="badge badge-success">Node</span>
-                    <span className="badge badge-secondary">Express</span>
+                    <span className="badge badge-success  p-1 mx-2">React</span>
+                    <span className="badge badge-secondary  p-1 mx-2">Javascript</span>
+                    <span className="badge badge-secondary  p-1 mx-2">Node</span>
                   </div>
                   <h5 className="card-title">Miguel Hernandez</h5>
                   <p className="card-text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Quia non molestias sed id praesentium. Dolore aliquid hic
-                    quia dolorem nulla.
+                    Desarrollador Front-End Pruebas
                   </p>
                 </div>
               </div>
@@ -59,21 +57,17 @@ export default function Team() {
               <div className="card">
                 <img
                   className="card-img-top"
-                  src="https://images.unsplash.com/photo-1484186694682-a940e4b1a9f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+                  src="https://drive.google.com/uc?id=1y0n1saa-Ba1PENthQbX4r6VqHWVWepio"
                   alt="Foto de Laura"
                 />
                 <div className="card-body">
                   <div className="badges">
-                    <span className="badge badge-dark">Mongo</span>
-                    <span className="badge badge-secondary">Express</span>
-                    <span className="badge badge-primary">React</span>
-                    <span className="badge badge-success">Node</span>
+                    <span className="badge badge-primary  p-1 mx-2">React</span>
+                    <span className="badge badge-success  p-1 mx-2">Node</span>
                   </div>
                   <h5 className="card-title">Laura Francisca</h5>
                   <p className="card-text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Quia non molestias sed id praesentium. Dolore aliquid hic
-                    quia dolorem nulla.
+                   Desarrollador Front-End diseño
                   </p>
                 </div>
               </div>
@@ -82,19 +76,18 @@ export default function Team() {
               <div className="card">
                 <img
                   className="card-img-top"
-                  src="https://images.unsplash.com/photo-1630310088454-eca4ecb56d87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+                  src="https://drive.google.com/uc?id=1kVbMApfudUjFGHe-DvbxpWIwdQCSP_VX"
                   alt="Foto de Jesus"
                 />
                 <div className="card-body">
                   <div className="badges">
-                    <span className="badge badge-info">C++</span>
-                    <span className="badge badge-success">Node</span>
+                    <span className="badge badge-info  p-1 mx-2">C++</span>
+                    <span className="badge badge-success  p-1 mx-2">Node</span>
+                    <span className="badge badge-success  p-1 mx-2">MongoDB</span>
                   </div>
                   <h5 className="card-title">Kevin Bohorquez</h5>
                   <p className="card-text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Quia non molestias sed id praesentium. Dolore aliquid hic
-                    quia dolorem nulla.
+                    Desarrollador Back-End
                   </p>
                 </div>
               </div>
@@ -108,14 +101,12 @@ export default function Team() {
                 />
                 <div className="card-body">
                   <div className="badges">
-                    <span className="badge badge-info">C++</span>
-                    <span className="badge badge-success">Node</span>
+                    <span className="badge badge-info  p-1 mx-2">sysadmin</span>
+                    <span className="badge badge-success  p-1 mx-2">linux</span>
                   </div>
                   <h5 className="card-title">Jesús Duran</h5>
                   <p className="card-text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Quia non molestias sed id praesentium. Dolore aliquid hic
-                    quia dolorem nulla.
+                   DevOps despliegue 
                   </p>
                 </div>
               </div>
