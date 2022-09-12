@@ -24,7 +24,7 @@ export default function Team() {
                   <div className="badges">
                     <span className="badge badge-warning p-1 mx-2">JavaScript</span>
                     <span className="badge badge-primary  p-1 mx-2 ">React</span>
-                    <span className="badge badge-primary  p-1 mx-2 ">Node.js</span>
+                    <span className="badge badge-success  p-1 mx-2 ">Node.js</span>
                   </div>
                   <h5 className="card-title">Jhon Acevedo</h5>
                   <p className="card-text">
@@ -42,9 +42,9 @@ export default function Team() {
                 />
                 <div className="card-body">
                   <div className="badges">
-                    <span className="badge badge-success  p-1 mx-2">React</span>
-                    <span className="badge badge-secondary  p-1 mx-2">Javascript</span>
-                    <span className="badge badge-secondary  p-1 mx-2">Node</span>
+                    <span className="badge badge-primary  p-1 mx-2">React</span>
+                    <span className="badge badge-warning  p-1 mx-2">Javascript</span>
+                    <span className="badge badge-success  p-1 mx-2">Node.js</span>
                   </div>
                   <h5 className="card-title">Miguel Hernandez</h5>
                   <p className="card-text">
